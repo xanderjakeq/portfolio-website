@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(45deg, #292F36, #FAEBD7);
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -2986,7 +2986,7 @@ input, select, textarea {
 			.features article .image {
 				border-radius: 5px 5px 0 0;
 				display: block;
-				margin-bottom: 1.75em;
+				/* margin-bottom: 1.75em; */
 				margin-left: -1.75em;
 				margin-top: -1.75em;
 				position: relative;
@@ -3754,15 +3754,15 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				margin: 0 3em 2em 0;
-				width: 22em;
+				width: 60em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+					/* border-radius: 100%; */
 					width: 100%;
 				}
 
